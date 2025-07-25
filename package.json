@@ -1,0 +1,17 @@
+{
+  "name": "clashparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate_final_rules.js",
+  "scripts": {
+    "upload-gist": "node src/uploadGist.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@octokit/rest": "^22.0.0",
+    "dotenv": "^17.2.1"
+  }
+}
