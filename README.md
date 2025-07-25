@@ -25,7 +25,16 @@ clashParser/
    ```sh
    npm install
    ```
-2. 配置 .env 文件（需包含 GITHUB_TOKEN 和 GIST_ID，GIST_ID 只填 ID 部分）
+2. 创建并配置 .env 文件（需包含 GITHUB_TOKEN 和 GIST_ID，GIST_ID 只填 ID 部分）
+   - 在项目根目录下新建 `.env` 文件，内容如下：
+     ```env
+     GITHUB_TOKEN=你的github_token
+     GIST_ID=你的gistid（如：f49aaa6362feaa36270e66f604808c50）
+     ```
+   - 注意事项：
+     - GITHUB_TOKEN 必须有 gist 权限（建议 classic token，勾选 gist）
+     - GIST_ID 只填 Gist 的 ID，不要填完整 URL
+     - .env 文件不要上传到公开仓库
 3. 修改 src/parser.js（所有业务逻辑均在此文件）
 4. 上传到 Gist:
    ```sh
