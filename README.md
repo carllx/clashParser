@@ -37,9 +37,10 @@ clashParser/
      - .env 文件不要上传到公开仓库
 3. 修改 src/parser.js（所有业务逻辑均在此文件）
 4. 上传到 Gist:
-   ```sh
+   ```bash
    npm run upload-gist
    ```
+
    - 终端提示 `Gist updated successfully!` 即为成功
    - Gist 页面内容会同步更新
 

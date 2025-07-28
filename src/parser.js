@@ -252,7 +252,7 @@ const rulerSetUrls = [
       "DOMAIN-KEYWORD,alkalimakersuite-pa.clients2.google.com,autoUS", // Google AI MakerSuite
       // "DOMAIN-SUFFIX,labs.google,autoUS", // Google Whisk
       // "DOMAIN-SUFFIX,dl.google.com,PROXY",
-      // "DOMAIN-SUFFIX,gemini.google.com,autoUS", // Google Gemini(不需要)
+      "DOMAIN-SUFFIX,gemini.google.com,autoUS", // Google Gemini
       "DOMAIN-SUFFIX,generativeai.google,autoUS", // Google Generative AI
       "DOMAIN-SUFFIX,geller-pa.googleapis.com,autoUS", // Google AI API
       "DOMAIN-SUFFIX,generativelanguage.googleapis.com,autoUS", // Google Generative Language API
