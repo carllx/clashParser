@@ -1,2 +1,7 @@
 node_modules/
-.env 
+.env
+complete-config.yaml
+shadowrocket.conf
+shadowrocket-rules.conf
+*.log
+generated-parser.js 

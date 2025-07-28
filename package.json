@@ -4,7 +4,14 @@
   "description": "",
   "main": "generate_final_rules.js",
   "scripts": {
-    "upload-gist": "node src/uploadGist.js"
+    "generate-parser": "node src/parser-generator.js",
+    "generate-rules": "node src/shadowrocket-rules-generator.js",
+    "upload-all": "node src/upload-all.js",
+    "rule:add": "node src/rule-manager.js add",
+    "rule:remove": "node src/rule-manager.js remove",
+    "rule:list": "node src/rule-manager.js list",
+    "rule:search": "node src/rule-manager.js search",
+    "rule:help": "node src/rule-manager.js help"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +19,8 @@
   "type": "commonjs",
   "dependencies": {
     "@octokit/rest": "^22.0.0",
-    "dotenv": "^17.2.1"
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "yaml": "^2.8.0"
   }
 }
